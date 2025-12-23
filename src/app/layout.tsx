@@ -26,6 +26,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL('https://nzenongbraxton.com'),
 	title: {
 		default:
 			'NZENONG KOMBOU MC BRAXTON (CYBER-LORD) | Fullstack Software Engineer & Architect',
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
 		'Cyber Lord Tech Solutions',
 		'Cyber-Lord',
 		'Nzenong Braxton',
-		'Nzenong Braxton (Cyber-Lord)'
+		'Nzenong Braxton (Cyber-Lord)',
 	],
 	authors: [{ name: 'NZENONG KOMBOU MC BRAXTON (CYBER-LORD)' }],
 	creator: 'NZENONG KOMBOU MC BRAXTON (CYBER-LORD)',

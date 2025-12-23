@@ -9,9 +9,9 @@ export const JsonLd = () => {
 		jobTitle: 'Fullstack Software Engineer and Architect',
 		url: 'https://nzenongbraxton.com',
 		sameAs: [
-			'https://github.com/braxtonnzenong',
-			'https://linkedin.com/in/braxtonnzenong',
-			'https://twitter.com/braxtonnzenong',
+			'https://github.com/nzenongbraxon',
+			'https://linkedin.com/in/nzenongbraxton',
+			'https://twitter.com/nzenongbraxton',
 		],
 		address: {
 			'@type': 'PostalAddress',

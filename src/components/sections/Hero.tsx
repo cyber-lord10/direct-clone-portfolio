@@ -123,7 +123,7 @@ export const Hero = () => {
 							{[
 								{
 									icon: Github,
-									href: 'https://github.com/braxtonnzenong',
+									href: 'https://github.com/nzenongbraxton',
 									label: 'GitHub Profile',
 								},
 								{

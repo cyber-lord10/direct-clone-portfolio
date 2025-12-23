@@ -8,7 +8,7 @@ const platforms = [
 	{
 		name: 'GitHub',
 		icon: Github,
-		href: 'https://github.com/braxtonnzenong',
+		href: 'https://github.com/nzenongbraxton',
 		description: 'Open source contributions',
 	},
 	{
@@ -20,13 +20,13 @@ const platforms = [
 	{
 		name: 'Upwork',
 		icon: ExternalLink,
-		href: 'https://upwork.com/freelancers/braxtonnzenong',
+		href: 'https://upwork.com/freelancers/nzenongbraxton',
 		description: 'Freelance services',
 	},
 	{
 		name: 'Freelancer',
 		icon: ExternalLink,
-		href: 'https://freelancer.com/u/braxtonnzenong',
+		href: 'https://freelancer.com/u/nzenongbraxton',
 		description: 'Project collaborations',
 	},
 ];
