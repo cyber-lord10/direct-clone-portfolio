@@ -12,6 +12,7 @@ export const JsonLd = () => {
 			'https://github.com/nzenongbraxon',
 			'https://linkedin.com/in/nzenongbraxton',
 			'https://twitter.com/nzenongbraxton',
+			'https://www.instagram.com/nzenongbraxton',
 		],
 		address: {
 			'@type': 'PostalAddress',

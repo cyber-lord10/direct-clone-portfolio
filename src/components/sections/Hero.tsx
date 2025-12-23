@@ -3,7 +3,14 @@ import Link from 'next/link';
 import { FadeIn } from '../animations/FadeIn';
 import { TypeWriter } from '../animations/TypeWriter';
 import { GlowingParticles } from '../animations/GlowingParticles';
-import { ChevronDown, Github, Linkedin, Mail, Download } from 'lucide-react';
+import {
+	ChevronDown,
+	User,
+	Github,
+	Linkedin,
+	Mail,
+	Download,
+} from 'lucide-react';
 import heroBg from '@/assets/hero-bg.jpeg';
 
 export const Hero = () => {
@@ -52,13 +59,20 @@ export const Hero = () => {
 							className='font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight'
 						>
 							<span className='text-foreground'>I'm </span>
-							<span className='text-glow text-primary' aria-label='Nzenong Braxton'>Nzenong Kombou</span>
+							<span
+								className='text-glow text-primary'
+								aria-label='Nzenong Braxton'
+							>
+								Nzenong Kombou
+							</span>
 						</h1>
 					</FadeIn>
 
 					<FadeIn delay={0.6}>
 						<p className='font-display text-2xl md:text-4xl lg:text-5xl font-bold mb-6'>
-							<span className='text-foreground' aria-label='Mc Braxton'>Mc Braxton</span>
+							<span className='text-foreground' aria-label='Mc Braxton'>
+								Mc Braxton
+							</span>
 						</p>
 					</FadeIn>
 
@@ -121,6 +135,11 @@ export const Hero = () => {
 					<FadeIn delay={1.4}>
 						<div className='flex items-center justify-center gap-6'>
 							{[
+								{
+									icon: User,
+									href: 'https://mcbraxton.link/',
+									label: 'GitHub Profile',
+								},
 								{
 									icon: Github,
 									href: 'https://github.com/nzenongbraxton',
