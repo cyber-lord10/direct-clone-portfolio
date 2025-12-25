@@ -16,7 +16,7 @@ const contactInfo = {
 	phones: ['+237 699 59 65 51', '+237 650 90 16 43'],
 	whatsapp: { number: '+237 699 59 65 51', link: 'https://wa.me/237699596551' },
 	telegram: { handle: '@237679710344', link: 'https://t.me/nzenongbraxton' },
-	signal: { handle: '@nzenongbraxton', link: 'https://signal.me/#p/+237699596551' },
+	signal: { handle: '@nzenongbraxton.01', link: 'https://signal.me/#p/+237699596551' },
 	address: 'Great Soppo, Buea - Cameroon',
 	emails: {
 		personal: 'braxtonnzenong@gmail.com',
