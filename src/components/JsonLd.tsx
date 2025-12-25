@@ -11,6 +11,8 @@ export const JsonLd = () => {
 		sameAs: [
 			'https://github.com/nzenongbraxon',
 			'https://linkedin.com/in/nzenongbraxton',
+			'https://wa.me/237699596551',
+			'https://t.me/nzenongbraxton',
 			'https://twitter.com/nzenongbraxton',
 			'https://instagram.com/nzenongbraxton1',
 			'https://threads.com/@nzenongbraxton1',

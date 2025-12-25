@@ -15,7 +15,8 @@ import {
 const contactInfo = {
 	phones: ['+237 699 59 65 51', '+237 650 90 16 43'],
 	whatsapp: { number: '+237 699 59 65 51', link: 'https://wa.me/237699596551' },
-	telegram: { handle: '@237679710344', link: 'https://t.me/237679710344' },
+	telegram: { handle: '@237679710344', link: 'https://t.me/nzenongbraxton' },
+	signal: { handle: '@nzenongbraxton', link: 'https://signal.me/#p/+237699596551' },
 	address: 'Great Soppo, Buea - Cameroon',
 	emails: {
 		personal: 'braxtonnzenong@gmail.com',
@@ -120,7 +121,6 @@ export const Footer = () => {
 								<a
 									href={contactInfo.whatsapp.link}
 									target='_blank'
-									rel='noopener noreferrer'
 									className='text-sm text-muted-foreground hover:text-primary transition-colors'
 								>
 									WhatsApp
@@ -137,10 +137,25 @@ export const Footer = () => {
 								<a
 									href={contactInfo.telegram.link}
 									target='_blank'
-									rel='noopener noreferrer'
 									className='text-sm text-muted-foreground hover:text-primary transition-colors'
 								>
 									Telegram
+								</a>
+							</div>
+							
+							{/* Signal */}
+							<div className='flex items-center gap-3'>
+								<MessageCircle
+									size={18}
+									className='text-primary flex-shrink-0'
+									aria-hidden='true'
+								/>
+								<a
+									href={contactInfo.signal.link}
+									target='_blank'
+									className='text-sm text-muted-foreground hover:text-primary transition-colors'
+								>
+									Signal
 								</a>
 							</div>
 
@@ -210,7 +225,8 @@ export const Footer = () => {
 				<div className='mt-12 pt-8 border-t border-border'>
 					<div className='flex flex-col md:flex-row items-center justify-between gap-4'>
 						<p className='text-sm text-muted-foreground font-mono'>
-							© {currentYear} Nzenong Kombou Mc Braxton (Cyber-Lord). All rights reserved.
+							© {currentYear} Nzenong Kombou Mc Braxton (Cyber-Lord). All rights
+							reserved.
 						</p>
 						<motion.div whileHover={{ y: -2 }}>
 							<Link

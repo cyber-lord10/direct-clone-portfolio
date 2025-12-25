@@ -138,7 +138,7 @@ export const Hero = () => {
 								{
 									icon: User,
 									href: 'https://mcbraxton.link/',
-									label: 'GitHub Profile',
+									label: 'Gravatar Profile (Full Portfolio)',
 								},
 								{
 									icon: Github,
