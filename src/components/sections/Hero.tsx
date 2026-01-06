@@ -101,7 +101,7 @@ export const Hero = () => {
 							>
 								Fullstack Software Engineer, Architect and Project Manager
 							</span>{' '}
-							of 5+ years of experience (since 2020) and more proficient in
+							with 5+ years of experience (since 2020) and more proficient in
 							Laravel, Javascript and Flutter, attended the school, tech
 							advocate, tech tutor, mathematician, Congo enthusiast, lover of
 							politics and the sole proprietor of Cyber Lord Tech Solutions LLC.

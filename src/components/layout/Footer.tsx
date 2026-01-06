@@ -16,7 +16,10 @@ const contactInfo = {
 	phones: ['+237 699 59 65 51', '+237 650 90 16 43'],
 	whatsapp: { number: '+237 699 59 65 51', link: 'https://wa.me/237699596551' },
 	telegram: { handle: '@237679710344', link: 'https://t.me/nzenongbraxton' },
-	signal: { handle: '@nzenongbraxton.01', link: 'https://signal.me/#p/+237699596551' },
+	signal: {
+		handle: '@nzenongbraxton.01',
+		link: 'https://signal.me/#p/+237699596551',
+	},
 	address: 'Great Soppo, Buea - Cameroon',
 	emails: {
 		personal: 'braxtonnzenong@gmail.com',
@@ -142,7 +145,7 @@ export const Footer = () => {
 									Telegram
 								</a>
 							</div>
-							
+
 							{/* Signal */}
 							<div className='flex items-center gap-3'>
 								<MessageCircle
@@ -230,8 +233,9 @@ export const Footer = () => {
 						</p>
 						<motion.div whileHover={{ y: -2 }}>
 							<Link
-								href='/'
+								href='#'
 								className='text-sm text-muted-foreground hover:text-primary transition-colors font-mono'
+								onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
 							>
 								Back to top ↑
 							</Link>
