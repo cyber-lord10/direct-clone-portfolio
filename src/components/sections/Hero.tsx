@@ -61,7 +61,7 @@ export const Hero = () => {
 							<span className='text-foreground'>I'm </span>
 							<span
 								className='text-glow text-primary'
-								aria-label='Nzenong Braxton'
+								aria-label='First name - Nzenong Kombou Mc Braxton (Cyber Lord)'
 							>
 								Nzenong Kombou
 							</span>
@@ -70,7 +70,10 @@ export const Hero = () => {
 
 					<FadeIn delay={0.6}>
 						<p className='font-display text-2xl md:text-4xl lg:text-5xl font-bold mb-6'>
-							<span className='text-foreground' aria-label='Mc Braxton'>
+							<span
+								className='text-foreground'
+								aria-label='Second name - Nzenong Kombou Mc Braxton (Cyber Lord)'
+							>
 								Mc Braxton
 							</span>
 						</p>
@@ -80,7 +83,10 @@ export const Hero = () => {
 					<FadeIn delay={0.8}>
 						<div className='flex items-center justify-center gap-3 mb-8'>
 							<span className='text-muted-foreground font-mono'>alias:</span>
-							<span className='font-display text-xl md:text-3xl text-glow-green text-accent font-bold'>
+							<span
+								className='font-display text-xl md:text-3xl text-glow-green text-accent font-bold'
+								aria-label='Alias - Nzenong Kombou Mc Braxton (Cyber-Lord)'
+							>
 								<TypeWriter text='CYBER-LORD' delay={1500} speed={100} />
 							</span>
 						</div>
@@ -89,11 +95,16 @@ export const Hero = () => {
 					{/* Role */}
 					<FadeIn delay={1}>
 						<p className='text-lg md:text-xl text-muted-foreground font-body mb-8 max-w-2xl mx-auto'>
-							<span className='text-primary'>
-								Full Stack Developer & SEO Specialist
+							<span
+								className='text-primary'
+								aria-label='Overview - Nzenong Kombou Mc Braxton (Cyber-Lord)'
+							>
+								Fullstack Software Engineer and Architect
 							</span>{' '}
-							crafting digital experiences with code, creativity, and a passion
-							for innovation
+							of 5+ years of experience (since 2020) and more proficient in
+							Laravel, Javascript and Flutter, attended the school, tech
+							advocate, tech tutor, mathematician, Congo enthusiast, lover of
+							politics and the sole proprietor of Cyber Lord Tech Solutions LLC.
 						</p>
 					</FadeIn>
 
