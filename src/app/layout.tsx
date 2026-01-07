@@ -29,16 +29,17 @@ export const metadata: Metadata = {
 	metadataBase: new URL('https://nzenongbraxton.com'),
 	title: {
 		default:
-			'NZENONG KOMBOU MC BRAXTON (CYBER-LORD) | Fullstack Software Engineer & Architect',
+			'NZENONG KOMBOU MC BRAXTON (CYBER-LORD) | Fullstack Software Engineer, Architect and Project Manager',
 		template: '%s | NZENONG KOMBOU MC BRAXTON (CYBER-LORD)',
 	},
 	description:
-		'I am a NZENONG KOMBOU MC BRAXTON (CYBER-LORD) an English-speaking Cameroonian Fullstack Software Engineer and Architect of 5+ years of experience (since 2020) and more proficient in Laravel - residing in Buea, attended the College of Technology - Buea (COT), tech advocate, tech tutor, mathematician, Congo enthusiasist, lover of politcs and the sole proprietor of Cyber Lord Tech Solutions LLC. My father, Kombou Paul Brice - is from the Bamilike clan of the Ménoua Division of the West Region of Cameroon and my mother, Eposi Becke - is from the Bakweri clan of the Fako Division of the Southwest Region of Cameroon.',
+		'I am a NZENONG KOMBOU MC BRAXTON (CYBER-LORD) an English-speaking Cameroonian Fullstack Software Engineer, Architect and Project Manager of 5+ years of experience (since 2020) and more proficient in Laravel - residing in Buea, attended the College of Technology - Buea (COT), tech advocate, tech tutor, mathematician, Congo enthusiasist, lover of politcs and the sole proprietor of Cyber Lord Tech Solutions LLC. My father, Kombou Paul Brice - is from the Bamilike clan of the Ménoua Division of the West Region of Cameroon and my mother, Eposi Becke - is from the Bakweri clan of the Fako Division of the Southwest Region of Cameroon.',
 	keywords: [
 		'PHP',
 		'Laravel',
+		'Fullstack Software Engineer',
 		'Software Architect',
-		'Fullstack Developer',
+		'Project Manager',
 		'Buea',
 		'COT',
 		'Cameroon',
@@ -49,18 +50,31 @@ export const metadata: Metadata = {
 	],
 	authors: [{ name: 'NZENONG KOMBOU MC BRAXTON (CYBER-LORD)' }],
 	creator: 'NZENONG KOMBOU MC BRAXTON (CYBER-LORD)',
+
+	// Favicons and App Icons
+	icons: {
+		icon: [
+			{ url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+			{ url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+		],
+		apple: [
+			{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+		],
+	},
+	manifest: '/site.webmanifest',
+
 	openGraph: {
 		type: 'website',
 		locale: 'en_US',
 		url: 'https://nzenongbraxton.com',
 		title:
-			'NZENONG KOMBOU MC BRAXTON (CYBER-LORD) | Fullstack Software Engineer & Architect',
+			'NZENONG KOMBOU MC BRAXTON (CYBER-LORD) | Fullstack Software Engineer, Architect and Project Manager',
 		description:
 			'English-speaking Cameroonian Fullstack Software Engineer and Architect. Specialist in Laravel, based in Buea.',
 		siteName: 'Cyber Lord Tech Solutions',
 		images: [
 			{
-				url: '/favicon.jpeg',
+				url: '/thumbnail.jpeg', // Updated filename
 				width: 1200,
 				height: 630,
 				alt: 'NZENONG KOMBOU MC BRAXTON (CYBER-LORD)',
@@ -70,8 +84,9 @@ export const metadata: Metadata = {
 	twitter: {
 		card: 'summary_large_image',
 		title: 'NZENONG KOMBOU MC BRAXTON (CYBER-LORD)',
-		description: 'Fullstack Software Engineer & Architect | Laravel Specialist',
-		images: ['/favicon.jpeg'],
+		description:
+			'Fullstack Software Engineer, Architect and Project Manager | Laravel Specialist',
+		images: ['/thumbnail.jpeg'], // Updated filename
 	},
 	robots: {
 		index: true,
