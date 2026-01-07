@@ -28,7 +28,7 @@ export const Hero = () => {
 					})`,
 				}}
 				role='img'
-				aria-label='Cyber Lord background artwork'
+				aria-label='Logo - Nzenong Kombou Mc Braxton (Cyber-Lord)'
 			/>
 			<div className='absolute inset-0 bg-background/85 backdrop-blur-sm' />
 
