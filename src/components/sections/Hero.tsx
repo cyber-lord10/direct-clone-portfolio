@@ -47,7 +47,7 @@ export const Hero = () => {
 				<div className='max-w-4xl mx-auto text-center'>
 					{/* Greeting */}
 					<FadeIn delay={0.2}>
-						<p className='text-muted-foreground font-mono text-sm md:text-base mb-4 tracking-widest uppercase'>
+						<p className='text-muted-foreground font-mono text-sm md:text-base mb-4 tracking-widest uppercase mt-16'>
 							{'// Welcome to my digital realm'}
 						</p>
 					</FadeIn>
