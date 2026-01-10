@@ -9,7 +9,7 @@ export const JsonLd = () => {
 		jobTitle: 'Fullstack Software Engineer and Architect',
 		url: 'https://nzenongbraxton.com',
 		sameAs: [
-			'https://github.com/nzenongbraxon',
+			'https://github.com/nzenongbraxton',
 			'https://linkedin.com/in/nzenongbraxton',
 			'https://wa.me/237699596551',
 			'https://t.me/nzenongbraxton',
@@ -55,7 +55,7 @@ export const JsonLd = () => {
 		'@type': 'Organization',
 		name: 'Cyber Lord Tech Solutions LLC',
 		url: 'https://nzenongbraxton.com', // Placeholder if different [cyberlord.tech]
-		logo: 'https://nzenongbraxton.com/favicon.jpeg',
+		logo: 'https://nzenongbraxton.com/thumbnail.jpeg',
 		founder: {
 			'@type': 'Person',
 			name: 'NZENONG KOMBOU MC BRAXTON',

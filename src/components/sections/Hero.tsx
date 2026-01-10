@@ -11,7 +11,6 @@ import {
 	Mail,
 	Download,
 } from 'lucide-react';
-import heroBg from '@/assets/hero-bg.jpeg';
 
 export const Hero = () => {
 	return (
@@ -23,9 +22,7 @@ export const Hero = () => {
 			<div
 				className='absolute inset-0 bg-cover bg-center bg-no-repeat'
 				style={{
-					backgroundImage: `url(${
-						typeof heroBg === 'string' ? heroBg : heroBg.src
-					})`,
+					backgroundImage: `url('/hero-bg.jpeg')`,
 				}}
 				role='img'
 				aria-label='Logo - Nzenong Kombou Mc Braxton (Cyber-Lord)'
@@ -87,7 +84,7 @@ export const Hero = () => {
 								className='font-display text-xl md:text-3xl text-glow-green text-accent font-bold'
 								aria-label='Alias - Nzenong Kombou Mc Braxton (Cyber-Lord)'
 							>
-								<TypeWriter text='CYBER-LORD' delay={1500} speed={100} />
+								<TypeWriter text='CYBER-LORD' delay={1500} speed={100} aria-lable="Alias - Nzenong Kombou Mc Braxton (Cyber-Lord)" />
 							</span>
 						</div>
 					</FadeIn>
