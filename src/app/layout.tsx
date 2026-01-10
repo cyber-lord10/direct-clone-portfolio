@@ -82,7 +82,7 @@ export const metadata: Metadata = {
 		title:
 			'NZENONG KOMBOU MC BRAXTON (CYBER-LORD) | Fullstack Software Engineer, Architect and Project Manager',
 		description:
-			'English-speaking Cameroonian Fullstack Software Engineer and Architect. Specialist in Laravel, based in Buea.',
+			'English-speaking Cameroonian Fullstack Software Engineer, Architect and Project Manager. Specialist in Laravel, based in Buea.',
 		siteName: 'Cyber Lord Tech Solutions',
 		images: [
 			{
